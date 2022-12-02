@@ -1,0 +1,253 @@
+
+main #banner {
+    max-width: 1440px;
+    margin: 135px auto 65px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
+
+main #banner h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    max-width: 488px;
+    margin-bottom: 20px;
+}
+
+main #banner p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+main #banner a {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    border: 2px solid #FF4081; border-radius: 62px;
+    padding: 10px 25px;
+}
+#cursos {
+    background-color: #F7F7F7;}
+
+#cursos .cursos {
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    
+}
+
+#cursos .cursos .curso {
+    max-width: 344px;
+    text-align: center;
+    padding: 120px 0 40px;
+
+}
+/* #cursos .curso2 {
+    width: 293px;
+    height: 502px;
+    text-align: center;
+}
+#cursos .curso3 {
+    width: 304px;
+    height: 502px;
+    text-align: center;
+} */
+
+#cursos h2 {
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+
+#cursos p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    margin: 25px 25px 40px;
+    
+}
+
+#cursos a{
+    background-color: #FF4081;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 14px 50px;
+}
+
+#about-us {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1100px;
+    margin: 120px auto 40px;
+    padding-left: 15px;
+}
+#about-us h3{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+    max-width: 480px;
+    margin: 0 30px 80px;
+}
+
+#about-us .depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#about-us .depoimentos .dep {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    max-width: 495px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 80px;
+}
+
+#about-us .depoimentos .dep img {
+    margin: 0 30px 10px 0;
+}
+
+#about-us .depoimentos .dep p{
+    margin-bottom:10px;
+}
+
+#blog {
+    background-color: #F7F7F7;
+}
+
+#blog .blog {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+#blog .blog h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;     
+    margin: 0 0 80px 40px;
+    padding-top: 90px;
+
+}
+
+#blog .blog .artigos {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#blog .blog .artigos .artigo {
+    max-width: 320px;
+    margin: 0 20px 100px;
+
+}
+
+#blog .blog h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+#blog .blog p {}
+
+#blog .blog .ver-mais {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    
+    padding: 10px 0; 
+    display: block;
+    margin: auto;
+    max-width: 290px;
+    text-align: center;
+
+    /* display: block;
+    width: 290px;
+    text-align: center; */
+
+}
+
+
+
+
+
+@media (max-width: 1050px)
+{    
+    #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #about-us h3 {
+        margin: 0 auto 80px;
+    }
+
+    #blog .blog h2 {
+        margin: 0 0 80px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 670px) {
+    #banner img {
+        max-width: 70%;
+        height: 70%;
+  }
+
+}
+
+@media (max-width: 500px) {
+    #about-us .depoimentos .dep {
+        display: flex;
+        flex-direction: column;
+    }
+    #about-us .depoimentos .dep div {
+        max-width: 400px;
+    }
+
+    #blog img {
+        max-width: 90%;
+        height: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+#about-us h3 {
+    margin: 0 30px 80px;
+}
+}
+
+@media (max-width: 400px) {
+    #about-us .depoimentos .dep div {
+        max-width: 300px;
+    }
+
+
+}

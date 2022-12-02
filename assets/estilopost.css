@@ -1,0 +1,222 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;  
+
+}
+
+header {
+    background-color: rgba(46, 148, 138, 1);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.header {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header nav a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+    margin: 0 20px;
+} */
+
+main .title {
+    text-align: center;
+    margin: 110px 0 75px;
+    
+}
+
+
+main .title h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+
+}
+
+main .title p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9D9D9D;
+}
+
+main #row {
+    max-width: 1032px;
+    margin: 0 auto 150px;
+}
+
+main #row img {
+    margin-bottom: 65px;
+}
+
+main #row p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 30px;
+    
+}
+
+main #row h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color:#419488;
+    padding: 60px 0 30px;
+}
+
+#cursos {
+    background-color: #F7F7F7;
+    padding: 80px 0;
+    
+}
+
+#cursos h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 80px;
+}
+
+#cursos .cursos {
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#cursos .cursos .curso {
+    max-width: 344px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* #cursos .curso2 {
+    width: 293px;
+    height: 502px;
+    text-align: center;
+}
+#cursos .curso3 {
+    width: 304px;
+    height: 502px;
+    text-align: center;
+} */
+
+#cursos .cursos .curso h3 {
+    margin: 45px 0 25px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+
+
+#cursos .cursos .curso p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 25px 40px;
+    
+}
+
+#cursos .cursos .curso a{
+    background-color: #FF4081;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 14px 50px;
+}
+
+@media (max-width: 1050px) {
+    main #row img {
+        max-width: 80%;
+        height: 80%;
+        padding-left: 25px;
+    }
+
+    main #row {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    main #row p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* footer {
+    background-color: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer #footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 100px;
+}
+
+footer #footer ul {
+    list-style: none;
+
+}
+
+footer #footer ul li {
+    margin-bottom: 5px;
+    
+
+}
+
+footer #footer ul a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+footer #footer .links a {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 15px 0;
+    display: block;
+    width: 290px;
+    text-align: center;
+} */

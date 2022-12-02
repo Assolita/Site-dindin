@@ -1,0 +1,88 @@
+
+main #cursos {
+    max-width: 1300px;
+    margin: 80px auto 200px;
+}
+
+main #cursos h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    margin: 0 20px;
+}
+main #cursos h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    margin: 0 20px 100px 20px;
+}
+main #cursos .curso {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main #cursos .curso .desc {
+    max-width: 730px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main #cursos .curso h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+
+}
+
+main #cursos .curso p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+main #cursos .curso a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #2E948A;
+    border-radius: 62px;
+    width: 233px;
+    padding: 14px 0;  
+    text-align: center;
+}
+
+main #cursos .line {
+    background-color: #C4C4C4;;
+    padding: 2.5px 0px;
+    margin: 100px 5px;
+}
+
+
+@media (max-width: 450px) {
+    main img {
+        width: 70%;
+        height: 70%;
+    }
+    main .desc p {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 750px) {
+   main .desc {
+        width: 85%;
+    }
+
+
+}

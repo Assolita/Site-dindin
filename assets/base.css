@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+a:hover{opacity: 0.8; transition: 300ms;}
+
+body {
+    font-family: 'Ubuntu', sans-serif;}
+
+header {
+    background-color: rgba(46, 148, 138, 1);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    max-width: 1440px;
+    min-height: 117px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 80px;
+    
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header nav a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+    margin: 0 20px;
+}
+
+
+
+footer {
+    background-color: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer #footer {
+    box-sizing: border-box;
+    max-width: 1440px;
+    min-height: 207px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+}
+
+footer #footer ul {
+    list-style: none;
+}
+
+footer #footer ul li {
+    margin-bottom: 5px;
+}
+
+footer #footer ul a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+footer #footer .links a {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 15px 0;
+
+    display: block;
+    width: 290px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 950px) {
+    #footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+    footer {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header img {
+      margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
